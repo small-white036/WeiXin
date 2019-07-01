@@ -100,8 +100,8 @@ public class TokenManagerImpl implements TokenManager {
 
 		
 		
-		String appid = "wxb1d8dd725bedd4ae";
-		String appsecret = "86499c7cf505d3043af7580d2ab9f2fa";
+		String appid = "wxea8db893b0e581ce";
+		String appsecret = "0daae674759f8423535f1f1e5b9e9a6f";
 
 		String url = "https://api.weixin.qq.com/cgi-bin/token?grant_type=client_credential"//
 				+ "&appid=" + appid//
