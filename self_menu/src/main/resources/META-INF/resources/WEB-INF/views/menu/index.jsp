@@ -5,7 +5,7 @@
 <head>
 <meta charset="UTF-8">
 <title>菜单管理</title>
-<link rel="stylesheet" href="/zhh_1/menu/css/menu.css"/>
+<link rel="stylesheet" href="/lzt_3/menu/css/menu.css"/>
 </head>
 <body>
 <div class="main-container">
@@ -136,9 +136,9 @@
 	<button onclick="saveMenus()">保存</button>
 </div>
 
-<script type="text/javascript" src="/zhh_1/menu/js/jquery.js"></script>
-<script type="text/javascript" src="/zhh_1/menu/js/vue.js"></script>
-<script type="text/javascript" src="/zhh_1/menu/js/menu.js"></script>
+<script type="text/javascript" src="/lzt_3/menu/js/jquery.js"></script>
+<script type="text/javascript" src="/lzt_3/menu/js/vue.js"></script>
+<script type="text/javascript" src="/lzt_3/menu/js/menu.js"></script>
 
 </body>
 </html>
