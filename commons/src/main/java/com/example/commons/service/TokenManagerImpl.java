@@ -99,6 +99,7 @@ public class TokenManagerImpl implements TokenManager {
 		// 这里现在暂时为了简化而不考虑缓存，后面会进行重构。
 
 		
+		
 		String appid = "wxb1d8dd725bedd4ae";
 		String appsecret = "86499c7cf505d3043af7580d2ab9f2fa";
 
