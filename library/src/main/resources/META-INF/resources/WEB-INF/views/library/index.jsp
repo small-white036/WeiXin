@@ -7,7 +7,7 @@
 <head>
 <meta charset="UTF-8">
 <title>图书馆首页</title>
-<link href="/zhh_1/library/css/main.css" rel="stylesheet" />
+<link href="/lzt_3/library/css/main.css" rel="stylesheet" />
 </head>
 <body>
 	<form action="" method="get">
@@ -36,11 +36,11 @@
 	<c:forEach items="${page.content }" var="book">
 		<div class="book">
 			<div class="col-1">
-				<img class="image" src="/zhh_1/library/images/${book.image }" />
+				<img class="image" src="/lzt_3/library/images/${book.image }" />
 			</div>
 			<span class="col-10 name">${book.name }</span>
 			<span class="col-1" style="text-align: right;">
-				<a href="/zhh_1/library/debit?id=${book.id }" class="button">+</a>
+				<a href="/lzt_3/library/debit?id=${book.id }" class="button">+</a>
 			</span>
 		</div>
 	</c:forEach>
