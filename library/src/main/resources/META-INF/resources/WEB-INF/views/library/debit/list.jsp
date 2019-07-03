@@ -7,14 +7,14 @@
 <head>
 <meta charset="UTF-8">
 <title>借阅列表</title>
-<link href="/zhh_1/library/css/main.css" rel="stylesheet" />
+<link href="/lzt_3/library/css/main.css" rel="stylesheet" />
 </head>
 <body>
 	<c:forEach items="${debitList.books }" var="book">
 		<div>
 			${book.name }
 			<%-- 此处把路径的一部分作为参数来使用，这才符合REST规范 --%>
-			<a href="/zhh_1/library/debit/remove/${book.id }">删除</a>
+			<a href="/lzt_3/library/debit/remove/${book.id }">删除</a>
 		</div>
 	</c:forEach>
 </body>
