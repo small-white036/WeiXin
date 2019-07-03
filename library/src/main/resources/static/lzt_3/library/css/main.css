@@ -1,3 +1,6 @@
+*{
+	background-image:url(../lzt_3/library/images/shu_bg.jpg);
+}
 .book {
 	width: 100%;
 	display: table;
