@@ -99,7 +99,6 @@
 					<!-- 并且可以使用 mvn spring-boot:stop 停止程序 -->
 					<fork>true</fork>
 					<!-- 每个fork出来的进程都会需要一个JMX端口，不能重复 -->
-					<!-- 建议：每个人使用一段的端口号，比如阿宝使用 9001~9099，小宝使用9100~9199 -->
 					<jmxPort>9007</jmxPort>
 				</configuration>
 			</plugin>
